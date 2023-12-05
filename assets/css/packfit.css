@@ -1,0 +1,844 @@
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      font-family: serif;
+      /* box-sizing: border-box; */
+      font-family: 'Lato', sans-serif;
+  }
+
+  @font-face {
+      /* font-family: TrajanPro; */
+      src: url('../fonts/TrajanPro-Regular.otf')
+  }
+
+  html,
+  body {
+      scroll-behavior: smooth;
+  }
+
+  /* body { 
+     background-image: url(../img/packfit-bg-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+      width: 100%;
+    height: 100vh;
+  } */
+
+
+  .dual-packimg {
+      width: 100%;
+      height: 100vh;
+      background-position: center;
+      background-image: url(../img/packfit-bg-image.jpg);
+      background-size: cover;
+
+  }
+
+  .homepage-packfit {
+      position: absolute;
+      z-index: 9999;
+      background-color: #00000063;
+      width: 100%;
+      line-height: 3rem;
+  }
+
+  .pac-fit {
+      color: #29aa55;
+      border: 5px solid #29aa55;
+      border-radius: 5px;
+      font-family: 'Lato', sans-serif;
+      position: relative;
+      padding: 0 12px
+  }
+
+  .round-shape {
+      height: 20px;
+      width: 20px;
+      background-color: #29aa55;
+      position: absolute;
+      border-top-left-radius: 42px;
+      border-bottom-left-radius: 37px;
+      transform: rotate(45deg);
+      padding-bottom: 21px;
+      /* margin: -10px -14px 0px -7px; */
+      width: 15px;
+      height: 29px;
+      top: 8px;
+      left: 15px;
+  }
+
+
+  .home-nav {
+      justify-content: end;
+  }
+
+  .nav-link {
+      color: white;
+  }
+
+  .navbar-toggler {
+      color: white;
+      background-color: black;
+  }
+
+
+
+  .home-about {
+      height: 100vh;
+  }
+
+  .home-pageabout {
+      height: 50%;
+      padding-top: 6rem;
+  }
+
+
+  .home-pageabout h5 {
+      color: white;
+      font-size: 26px;
+      font-weight: 400;
+  }
+
+  .h1-heading {
+      color: white;
+      /* font-family: TrajanPro; */
+      font-size: 87px;
+  }
+
+  .packaging-para p {
+      color: white;
+      line-height: 28px;
+      font-size: 26px;
+      font-weight: 300;
+  }
+
+  .uniq {
+      margin-top: 2rem;
+      color: white;
+      font-size: 26px;
+      font-weight: 300;
+  }
+
+  .inovative-product {
+      position: absolute;
+      top: -450px;
+      /* position: relative;
+         overflow: hidden;
+         height: 100vh; */
+  }
+
+  .inovative-item {
+      overflow: hidden;
+      /* height: 152vh; */
+      position: relative;
+      padding-bottom: 23rem;
+
+  }
+
+  .inovative-all {
+      margin-top: 15rem;
+  }
+
+
+  .inovative-heading h1 {
+      font-weight: 350;
+      color: white;
+      text-align: left;
+      font-size: 50px;
+  }
+
+  .inovative-pare {
+      color: white;
+      font-weight: 300;
+      text-align: left;
+      padding-top: 1rem;
+  }
+
+  .inovative-h5 h5 {
+      color: white;
+      text-align: left;
+      font-size: 23px;
+      font-weight: 300;
+  }
+
+  .box-product {
+      margin-top: 5rem;
+  }
+
+  .integranted-section {
+      margin-top: -16rem;
+      position: relative;
+      margin-inline: 1rem;
+  }
+
+  .integranted-system {
+      background-image: url(../img/packaging-bg.png);
+      background-size: cover;
+      /* background-repeat: no-repeat;
+    background-position: center center; */
+      border-bottom-left-radius: 10rem;
+      border-bottom-right-radius: 10rem;
+  }
+
+  /* .product-bg-image {
+      border-bottom-left-radius: 10rem;
+      border-bottom-right-radius: 10rem;
+      position: absolute; 
+  } */
+  .packaging-system {
+      position: relative;
+      z-index: 99;
+      overflow: hidden;
+  }
+
+  .product-packaging {
+      position: relative;
+      top: -6rem;
+  }
+
+  .interandted-heading h2 {
+      text-align: left;
+      color: white;
+      font-size: 75px;
+      font-weight: 300;
+  }
+
+  .interandted-heading {
+      color: white;
+  }
+
+  .interandted-para {
+      color: white;
+      padding-left: 9rem;
+      font-weight: 300;
+      padding-left: 1rem;
+      line-height: 15px;
+      font-size: 22px;
+  }
+  .interandted-para p{
+    line-height: 27px
+  }
+
+  .tharmel {
+      padding-top: 11rem;
+      padding-bottom: 2rem;
+  }
+
+  .tharmel-heading h1 {
+    text-align: center;
+    line-height: 6px;
+    margin-top: 18px;
+    padding-top: 3rem;
+    font-size: 80px;
+  }
+
+  .tharmel-para p {
+      text-align: left;
+      padding-left: 7rem;
+      padding-top: 2rem;
+      font-size: 31px;
+      font-weight: 300;
+      line-height: 38px;
+    padding-top: 4rem;;
+  }
+
+  .owl-prev {
+      font-size: 2rem;
+      border-radius: 432px;
+      border: 2px solid black;
+      height: 51px;
+      width: 50px;
+  }
+
+  /* span{
+    position: absolute;
+    left: 17px;
+    top: -3px;
+    left: -93px;
+    top: 40%;
+    font-size: 2rem;
+    border-radius: 432px;
+    border: 2px solid black;
+    height: 51px;
+    width: 50px;
+  } */
+  .owl-prev span {
+      position: absolute;
+      left: 17px;
+      top: -3px;
+      left: -93px;
+      top: 40%;
+      font-size: 2rem;
+      border-radius: 432px;
+      border: 2px solid black;
+      height: 51px;
+      width: 50px;
+  }
+
+  .owl-next span {
+      display: none;
+  }
+
+  .tharmel {
+      position: relative;
+  }
+
+  .key-feat pre {
+      position: absolute;
+      left: -15rem;
+      transform: rotate(270deg);
+      top: 41%;
+      padding: 0;
+      margin: 0;
+      font-size: 17px;
+      font-weight: 300;
+  }
+
+
+
+  .why-pack-heading h1 {
+      color: white;
+      font-size: 90px;
+      font-weight: 300;
+      padding-bottom: 2rem;
+  }
+
+  .why-pack-para {
+      color: white;
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 2rem;
+  }
+
+
+  .why-product {
+      display: flex;
+      justify-content: center;
+      padding-top: 5rem;
+      justify-content: space-evenly;
+  }
+
+
+  .why-pitpack {
+      padding-bottom: 5rem;
+  }
+
+
+  .product-caption p {
+      color: white;
+      line-height: 1px;
+      text-align: center;
+      font-weight: 400;
+      line-height: 19px;
+  }
+
+  .clients-heading h5 {
+      font-size: 40px;
+      line-height: 20px;
+      font-weight: 300;
+      padding-top: 5rem;
+  }
+
+  .clients-heading h1 {
+      font-size: 80px;
+      font-weight: 300;
+  }
+
+  .foot-shape {
+      height: 20px;
+      width: 20px;
+      background-color: #29aa55;
+      position: relative;
+      border-top-left-radius: 42px;
+      border-bottom-left-radius: 37px;
+      transform: rotate(45deg);
+      padding-bottom: 21px;
+      /* margin: -10px -14px 0px -7px; */
+      width: 15px;
+      height: 29px;
+      top: 25px;
+      left: 3px;
+  }
+
+  .common {
+      display: flex;
+      justify-content: center;
+      gap: 5rem;
+  }
+
+
+  .foot-fit {
+      color: #29aa55;
+      border: 5px solid #29aa55;
+      border-radius: 5px;
+      font-family: 'Lato', sans-serif;
+      position: relative;
+      padding: 0 12px
+  }
+
+  .foot-fit {
+      width: 11rem;
+  }
+
+
+  .foot-para p {
+      color: white;
+      font-size: 20px;
+      font-weight: 300;
+  }
+
+  .fav-icon {
+      color: white;
+      font-size: 46px;
+      /* gap: dis; */
+      display: flex;
+      gap: 1rem;
+  }
+
+  .footer-heading h2 {
+      color: white;
+      font-size: 40px;
+      font-weight: 300;
+  }
+
+  .contact-box li {
+      list-style-type: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 300;
+      padding: 0;
+
+  }
+
+  .contact-box a {
+      text-decoration: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 300;
+  }
+
+  .contact-box p {
+      color: white;
+      line-height: 0px;
+      font-size: 16px;
+      font-weight: 300;
+  }
+
+  .dual-packimg input:focus-visible {
+      outline-style: none;
+      caret-color: white;
+  }
+  .dual-packimg{
+    height: 100vh;
+  }
+  .next-form {
+      width: 100%;
+      background: transparent;
+      padding-top: 2rem;
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      outline: none;
+      caret-color: white;
+  }
+
+  .quote-button {
+      border-radius: 11px;
+      padding: 0px 5px 0px 5px;
+      /* background: transparent; */
+      background-color: #8c8f91;
+      overflow: hidden;
+  }
+
+  .form h2 {
+      color: white;
+      font-size: 30px;
+      font-weight: 300;
+  }
+
+  @media(max-width: 768px) {
+    .interandted-heading{
+        padding-top: 0 !important;
+    } 
+      .mini-tags {
+          background-color: white;
+          color: white;
+      }
+
+      .col {
+          margin-top: 5rem;
+      }
+
+      .homepage-packfit {
+          position: absolute;
+          z-index: 9999;
+          background-color: black;
+          width: 100%;
+          line-height: 2rem;
+      }
+
+      .home-pageabout h5 {
+          color: white;
+          font-size: 26px;
+          /* font-family: TrajanPro; */
+      }
+
+      .h1-heading {
+          color: white;
+          /* font-family: TrajanPro; */
+          font-size: 40px;
+      }
+
+      .packaging-para p {
+          color: white;
+          line-height: 2rem;
+          font-size: 26px;
+ 
+      }
+      .packaging-para{
+        padding-top: 1rem;
+      }
+
+      .uniq {
+          margin-top: 2rem;
+          color: white;
+          /* font-family: TrajanPro-regular; */
+          font-size: 26px;
+      }
+
+      .inovative-item {
+          position: relative;
+          overflow: hidden;
+          height: 100%;
+      }
+
+      .inovative-heading h1 {
+          text-align: center;
+      }
+
+      .inovative-pare {
+          text-align: center;
+      }
+
+      .inovative-h5 h5 {
+          text-align: center;
+      }
+
+      .box-product {
+          margin-top: 2rem;
+      }
+
+      .interandted-heading h2 {
+          text-align: center;
+          color: white;
+          font-size: 75px;
+          font-weight: 300;
+      }
+
+      .interandted-para {
+          color: white;
+          /* padding-left: 9rem; */
+          font-weight: 300;
+          text-align: center;
+          line-height: 19px;
+          font-size: 23px;
+          padding-bottom: 3rem;
+      }
+
+      .product-packaging {
+          position: relative;
+          top: -4rem;
+      }
+
+      .product-caption p {
+          color: white;
+          /* line-height: 19px; */
+          text-align: center;
+          font-weight: 400;
+          padding-right: 2px;
+      }
+
+      .why-pack-para {
+          color: white;
+          font-size: 25px;
+          font-weight: 300;
+          line-height: 2rem;
+      }
+
+      .tharmel {
+          padding-top: 4rem;
+      }
+
+      p {
+          margin-top: 0;
+          margin-bottom: 2rem;
+      }
+
+      .clients-heading h5 {
+          padding-top: 1rem;
+      }
+
+      .common {
+          justify-content: left;
+      }
+
+      .footer-heading h2 {
+          padding-right: 5rem
+      }
+
+      .common {
+          gap: 0rem;
+      }
+
+      .clients-heading h1 {
+          font-size: 50px;
+          font-weight: 300;
+      }
+
+      .why-pack-heading h1 {
+          color: white;
+          font-size: 77x;
+      }
+  }
+
+  @media(max-width: 767px) {
+      .mini-tags {
+          background-color: white;
+          color: white;
+      }
+
+      .col {
+          margin-top: 5rem;
+      }
+
+      .homepage-packfit {
+          position: absolute;
+          z-index: 9999;
+          background-color: black;
+          width: 100%;
+          line-height: 2rem;
+      }
+
+      .home-pageabout h5 {
+          color: white;
+          font-size: 23px;
+          text-align: center;
+          line-height: 30px;
+      }
+
+      .h1-heading {
+          color: white;
+          font-size: 35px;
+          text-align: center;
+      }
+
+      .packaging-para p {
+          color: white;
+          line-height: 27px;
+          font-size: 19px;
+          text-align: center;
+          margin-bottom: 0px;
+      }
+
+      .uniq {
+          margin-top: 0rem;
+          color: white;
+          font-size: 17px;
+          text-align: center;
+      }
+
+      .inovative-all {
+          margin-top: 1rem;
+      }
+
+      .interandted-heading h2 {
+          text-align: center;
+          color: white;
+          font-size: 42px;
+          font-weight: 300;
+      }
+
+      .integranted-system {
+          padding-bottom: 2rem;
+      }
+
+      .product-packaging {
+          position: relative;
+          top: 1rem;
+      }
+
+      .tharmel-para p {
+          text-align: center;
+          padding-left: 1rem;
+          padding-top: 0rem;
+          font-size: 31px;
+          font-weight: 300;
+          line-height: 29px;
+      }
+
+      .tharmel-heading h1 {
+        text-align: center;
+        line-height: 30px;
+        font-size: 41px;
+        margin-top: 0;
+        padding-top: 0;
+      }
+
+      .tharmel {
+          padding-top: 3rem;
+      }
+
+      .clients-heading {
+          padding-top: 1rem !important;
+      }
+
+      .clients-heading h5 {
+          font-size: 35px;
+          line-height: 20px;
+          font-weight: 300;
+
+      }
+
+      .clients-heading h1 {
+          font-size: 43px;
+          font-weight: 300;
+      }
+
+      .foot-fit {
+          color: #29aa55;
+          border: 5px solid #29aa55;
+          border-radius: 5px;
+          font-family: 'Lato', sans-serif;
+          position: relative;
+          padding: 0px 23px;
+      }
+
+      .foot-fit {
+          width: 10rem;
+      }
+
+      .fav-icon {
+          color: white;
+          font-size: 46px;
+          gap: dis;
+          display: flex;
+          gap: 1rem;
+          justify-content: center;
+      }
+
+      .foot-para p {
+          text-align: center;
+      }
+
+      .foot-shape {
+          top: -5px;
+          left: 17px;
+      }
+
+      .footer-logo {
+          display: flex;
+          justify-content: center;
+      }
+
+      .why-pack-heading h1 {
+          color: white;
+          font-size: 38px;
+          font-weight: 300;
+          padding-bottom: 0rem;
+      }
+
+      .phone ul {
+          text-align: center;
+          padding: 0;
+      }
+
+      .form h2 {
+          text-align: center;
+          padding: 0;
+      }
+
+      .common {
+          gap: 0rem;
+      }
+
+      .footer-heading h2 {
+          padding: 0;
+      }
+
+      .inovative-product {
+          position: absolute;
+          top: -165px;
+          padding-right: 1.5rem;
+      }
+
+      .inovative-pare {
+          font-size: 19px;
+      }
+
+      .inovative-product {
+          top: -165px;
+          padding-right: 1.5rem;
+      }
+
+      .inovative-heading h1 {
+          font-size: 42px;
+          line-height: 29px;
+      }
+
+      .inovative-pare {
+          padding-top: 1rem;
+          font-size: 19px;
+      }
+
+      .inovative-h5 h5 {
+          text-align: center;
+          font-size: 16px;
+      }
+
+      .inovative-all {
+          margin-top: 10rem;
+      }
+
+      .tharmel-para p {
+        text-align: center;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 29px;
+      }
+      
+      .owl-theme .owl-nav{
+        margin-top: -80px !important;
+      }
+      .interandted-para {
+        color: white;
+        /* padding-left: 9rem; */
+        font-weight: 300;
+        text-align: center;
+        line-height: 0px;
+        font-size: 15px;
+      }
+      .why-pack-para{
+        font-size: 16px;
+        line-height: 22px;
+      }
+      .why-product{
+        padding-top: 0 !important;
+      }
+
+      .brand-suply{
+        padding-top: 4rem;
+      }
+      .why-product p{
+        padding-top: 10px;
+      } 
+
+      .dual-packimg {
+        height: 100vh;
+      }
+  }
